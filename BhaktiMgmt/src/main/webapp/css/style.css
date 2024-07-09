@@ -1,0 +1,100 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border: 1px solid #343a40;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #343a40;
+}
+
+table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    margin: 20px 0;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #343a40;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+button {
+    background-color: #343a40;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #495057;
+}
+
+/* Link styling */
+a.btn {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.btn:hover {
+    background-color: #495057;
+}
